@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace jsxxglxt
+namespace xsxxglxt_web
 {
     public partial class Login : System.Web.UI.Page
     {
@@ -36,7 +36,7 @@ namespace jsxxglxt
                 {
                     Session[XSXXGLData.管理员名称] = s_name;
                     e.Authenticated = true;
-                    Response.Write("<script>alert('登录成功');window.location.href=Registe.aspx;</script>");
+                    Response.Write("<script>alert('登录成功');window.location.href='Default.aspx';</script>");
                 }
             }
         }

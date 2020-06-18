@@ -7,21 +7,12 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace jsxxglxt
+namespace xsxxglxt_web
 {
 
 
-    public partial class Site
+    public partial class Default
     {
-
-        /// <summary>
-        /// head 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
         /// form1 控件。
@@ -60,12 +51,12 @@ namespace jsxxglxt
         protected global::System.Web.UI.WebControls.HyperLink HyperLink3;
 
         /// <summary>
-        /// ContentPlaceHolder1 控件。
+        /// HyperLink4 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink4;
     }
 }

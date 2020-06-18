@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="jsxxglxt.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="xsxxglxt_web.Login" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Login ID="Login1" runat="server" OnAuthenticate="Login1_Authenticate" DisplayRememberMe="False" DestinationPageUrl="~/Registe.aspx"></asp:Login>
+        <h3>用户登录</h3>
+        <asp:Login ID="Login1" runat="server" OnAuthenticate="Login1_Authenticate" DisplayRememberMe="False" DestinationPageUrl="~/Default.aspx"></asp:Login>
     </form>
 </body>
 </html>
