@@ -1,0 +1,2 @@
+1.sql server数据库中打开文件xsxxglxt_web.sql。并点击执行按钮
+2.vs打开项目文件，点击运行按钮（快捷键F5）即可运行
